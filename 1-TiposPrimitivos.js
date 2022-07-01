@@ -83,3 +83,21 @@ console.log(num1 === num2);
 const texto3 = "Alura";
 const texto4 = "alura";
 console.log (texto3 === texto4);
+
+// Tipo Null
+
+let input1 = null; //Váriavel com ausencia de valor: null
+
+if (input1 === null) {
+ console.log('não há informação');
+} else {
+ console.log(input3);
+}
+
+let input2; //Váriável sem atribuição de valor: undefined
+
+console.log(input1); // null
+console.log(input2); // undefined
+
+console.log(null == undefined); // true
+console.log(null === undefined); // false
